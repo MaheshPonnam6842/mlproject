@@ -13,5 +13,4 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
 )
-logging.info("Logger initialized successfully.")
-print("Log file created at:", LOG_FILE_PATH)
+
